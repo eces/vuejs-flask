@@ -1,1 +1,1 @@
-`npm i -g @vue/cli`
+`npm i -g vue-cli`
