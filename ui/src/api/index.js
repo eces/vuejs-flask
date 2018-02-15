@@ -30,7 +30,23 @@ const fetchMessages = (cid) => {
   })
 }
 
+const fetchProduct = (id) => {
+  return new Promise((resolve) => {
+    console.log('[fetchProduct] in')
+    setTimeout(() => {
+      resolve(
+        {
+          id: id,
+          name: id.toUpperCase(),
+          price: '$' + Number(Math.random() * 1000).toFixed(2),
+        }
+      )
+    }, 1000)
+  })
+}
+
 export {
   fetchConversations,
   fetchMessages,
+  fetchProduct,
 }

@@ -1,10 +1,11 @@
 <template lang="pug">
-  ul
-    CsListItem(
-      v-for='conversation in conversations'
-      :key='conversation.id'
-      :conversation='conversation'
-    )
+  div
+    ul
+      CsListItem(
+        v-for='conversation in conversations'
+        :key='conversation.id'
+        :conversation='conversation'
+      )
 </template>
 
 <script>

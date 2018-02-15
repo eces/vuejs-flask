@@ -1,5 +1,8 @@
 <template lang="pug">
   div
+    router-link.btn.btn-primary(to='/amazon') Amazon
+    router-link.btn.btn-primary(to='/bose/c20') Bose C20
+    hr
     h1 Home
     CsList(
       :conversations='conversations'

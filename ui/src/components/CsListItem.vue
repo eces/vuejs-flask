@@ -1,9 +1,9 @@
 <template lang="pug">
   li
     strong {{conversation.from_name}}:
-      | &nbsp;
+    | &nbsp;
     span @{{conversation.to_name}}
-      | &nbsp;
+    | &nbsp;
     em {{conversation.last_message}}
 </template>
 
