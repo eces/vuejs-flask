@@ -1,0 +1,37 @@
+static:
+  domain: 'http://static.lvh.me:9700'
+
+mysql:
+  master:
+    host: localhost
+    id: root
+    password:
+    scheme: soran
+  slave:
+    host: localhost
+    id: root
+    password:
+    scheme: soran
+
+redis:
+  master:
+    host: localhost
+    port: 6379
+
+domain:
+  protocol: 'http://'
+  port: ':9700'
+  wildcard: .lvh.me
+  base: lvh.me
+  api: api.lvh.me
+  cs: app.lvh.me
+  ws: ws://127.0.0.1:9005
+  ws_http: http://127.0.0.1:9005
+
+queue:
+  notify-message: https://sqs.ap-northeast-2.amazonaws.com/279053281988/development-notify-message
+  aa:
+    - 1
+    - 1
+    - 1
+    - 1

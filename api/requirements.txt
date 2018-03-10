@@ -1,0 +1,12 @@
+click==6.7
+Flask==0.12.2
+gevent==1.2.2
+greenlet==0.4.13
+itsdangerous==0.24
+Jinja2==2.10
+MarkupSafe==1.0
+pydash==4.3.3
+PyJWT==1.6.0
+PyYAML==3.12
+SQLAlchemy==1.2.5
+Werkzeug==0.14.1
