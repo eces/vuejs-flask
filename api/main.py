@@ -11,15 +11,6 @@ import pydash as _
 
 app = Flask(__name__)
 
-# migration, Table
-# fetch,
-# datetime, pytz
-# redis, celery
-# postgresql JSON
-# sentry Exception
-# cloudwatch/papertrail
-
-
 @app.route("/")
 def index():
     config = yaml.load(open('./config.yml').read())
