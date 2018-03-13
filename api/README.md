@@ -6,6 +6,9 @@ export PROJECT_HOME=$HOME/Devel
 export VIRTUALENVWRAPPER_SCRIPT=/usr/local/bin/virtualenvwrapper.sh
 source /usr/local/bin/virtualenvwrapper_lazy.sh
 ```
+`pip install alembic`
+`alembic init`
+`alembic upgrade head`
 
 - [ ] migration, Table
 - [ ] fetch,
