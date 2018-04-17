@@ -1,0 +1,2 @@
+- `npm run serve`
+- `open http://localhost:3000`

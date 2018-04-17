@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "./dev.sh",
+    "serve": "./bin/serve",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
